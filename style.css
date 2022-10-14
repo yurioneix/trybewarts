@@ -18,3 +18,7 @@
 #trybewarts-forms-logo {
   height: 500px;
 }
+
+#familys { display: flex;
+  flex-direction: column;
+}
