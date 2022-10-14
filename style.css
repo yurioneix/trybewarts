@@ -22,3 +22,7 @@
 #familys { display: flex;
   flex-direction: column;
 }
+
+#check-content { display: flex;
+  flex-direction: column;
+}
