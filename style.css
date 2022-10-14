@@ -27,6 +27,6 @@
   flex-direction: column;
 }
 
-#rate { display: flex;
+#rate-container { display: flex;
   flex-direction: column;
 }
