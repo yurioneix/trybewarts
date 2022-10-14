@@ -3,6 +3,8 @@ const headerEmail = document.querySelector('#header-email');
 const headerPassword = document.querySelector('#header-password');
 const agreementBtn = document.querySelector('#agreement');
 const submitBtn = document.querySelector('#submit-btn');
+const textArea = document.querySelector('#textarea');
+const counterLabel = document.querySelector('#counter');
 
 function checkLogin() {
   if (headerEmail.value === 'tryber@teste.com' && headerPassword.value === '123456') {
@@ -19,4 +21,9 @@ agreementBtn.addEventListener('change', () => {
   } else {
     submitBtn.setAttribute('disabled');
   }
+});
+
+textArea.addEventListener('keyup', () => {
+  const text = textArea.value;
+  counterLabel.innerHTML = (500 - text.length);
 });
