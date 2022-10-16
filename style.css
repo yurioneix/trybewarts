@@ -6,7 +6,12 @@
   padding: 5px;
 }
 
+.input-group-text {
+  width: 35%; /* Yuri: alterando tamanho da classe input-group-text */
+}
+
 .trybewarts-login { display: flex;
+  justify-content: space-around; /* Yuri: cria espaçamento dos inputs email e senha */
 }
 
 #evaluation-form { display: flex;
