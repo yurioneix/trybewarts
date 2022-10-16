@@ -1,6 +1,9 @@
 .header {
   display: flex;
   background-color: rgb(50, 167, 145);
+  height: 3.5em; /* Yuri: ajeitei tamanho do header */
+  justify-content: space-between;
+  padding: 5px;
 }
 
 .trybewarts-login { display: flex;
