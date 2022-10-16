@@ -14,6 +14,10 @@
   justify-content: space-around; /* Yuri: cria espaçamento dos inputs email e senha */
 }
 
+#trybewarts-header-title {
+  color: white; /* Yuri: altera cor do h1 do header */
+}
+
 #evaluation-form { display: flex;
   width: 675px;
   flex-direction: column;
