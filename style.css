@@ -35,11 +35,9 @@
 #main-cantainer {
   margin: 4%;
   display: flex;
-  justify-content: space-between;
 }
 
 body {
-  background-color: rgb(117, 113, 113);
 }
 
 #form-title {
@@ -56,6 +54,7 @@ body {
 #trybewarts-forms-logo {
   height: 500px;
   margin-top: 10%;
+  margin-left: 260px;
 }
 
 #familys { display: flex;
@@ -68,12 +67,13 @@ body {
 }
 
 #rate-container { display: flex;
-  flex-direction: column;
+  justify-content: space-between;
+
 }
 
 #school-info {
   display: flex;
-  justify-content: space-around 1;
+  justify-content: space-between
 }
 
 #textarea {
