@@ -37,9 +37,6 @@
   display: flex;
 }
 
-body {
-}
-
 #form-title {
   margin-left: 10%;
   margin-bottom: 5%;
@@ -73,7 +70,8 @@ body {
 
 #school-info {
   display: flex;
-  justify-content: space-between
+  justify-content: space-between;
+
 }
 
 #textarea {
