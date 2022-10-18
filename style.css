@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Inknut Antiqua, serif;
+}
+
 .header {
   display: flex;
   background-color: rgb(50, 167, 145);
@@ -24,7 +33,19 @@
 }
 
 #main-cantainer {
+  margin: 4%;
   display: flex;
+}
+
+#form-title {
+  margin-left: 10%;
+  margin-bottom: 5%;
+}
+
+#info input {
+  border: 1px solid grey;
+  border-radius: 7px;
+  padding: 10px 5px;
 }
 
 #trybewarts-forms-logo {
