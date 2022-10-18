@@ -35,6 +35,8 @@
 #main-cantainer {
   margin: 4%;
   display: flex;
+  background-color: rgb(117, 113, 113);
+  justify-content: space-between;
 }
 
 #form-title {
@@ -58,8 +60,23 @@
 
 #check-content { display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
 }
 
 #rate-container { display: flex;
   flex-direction: column;
+}
+
+#school-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer {
+  display: flex;
+  position: absolute;
+  width: 100%;
+  justify-content: center;
+  background-color: rgb(117, 113, 113);
+  padding: 20px;
 }
