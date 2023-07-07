@@ -1,10 +1,19 @@
-# :construction: README em construção ! :construction:
-<!-- Olá, Tryber!
-Esse é apenas um arquivo inicial para o README do seu projeto.
-É essencial que você preencha esse documento por conta própria, ok?
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
-:warning: IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
--->
+# Trybewarts
+
+Neste projeto desenvolvido no modulo de Fundamentos da Trybe, foi criado uma página de formulário da Escola de Magia de Trybewarts, em que as pessoas estudantes poderão enviar seus feedbacks sobre ela. O tema desse projeto é baseado na obra 'Harry Potter', de J. K. Rowling, já que programar é o mais próximo que podemos chegar de algo verdadeiramente mágico!
+
+
+## Autores
+
+- [@yurioneix](https://github.com/yurioneix)
+- [@nutriandersonsilva](https://github.com/nutriandersonsilva)
+
+## Instalação
+
+Para rodar o projeto localmente, basta clonar o repositorio em sua maquina e rodar a pagina HTML com a extensao Live Server do VSCode. 
+
+```bash
+  git clone git@github.com:yurioneix/trybewarts.git
+  cd trybewarts/
+```
+    
